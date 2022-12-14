@@ -1,7 +1,8 @@
 '''
 Cyber Security IPB - Early Challenge
 
-Category: Cryptography
+Category : Cryptography
+Writeup  : https://naufalardhani.medium.com/cyber-security-ipb-agrihack-early-challenge-82ae02d8ab92
 '''
 
 def decode(**csi):
