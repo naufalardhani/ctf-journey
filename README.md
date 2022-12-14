@@ -7,7 +7,7 @@
 
 ### Web Exploit
 - NMAP
-- - asd
+  - ```> brew install nmap ```
 ### Cryptography
 ### Forensics
 ### OSINT
