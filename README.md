@@ -6,8 +6,14 @@
 - [https://github.com/zardus/ctf-tools](https://github.com/zardus/ctf-tools)
 
 ### Web Exploit
-- NMAP
-  - ```> brew install nmap ```
+- nmap
+- netcat
+- ffuf
+- dirsearch
+- sqlmap
+- nuclei
+- BurpSuite
+- mysql
 ### Cryptography
 ### Forensics
 ### OSINT
