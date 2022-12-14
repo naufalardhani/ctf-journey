@@ -1,7 +1,7 @@
 '''
 Cyber Security IPB - Early Challenge
 
-Category: Forensics
+Category: Cryptography
 '''
 
 def decode(**csi):
