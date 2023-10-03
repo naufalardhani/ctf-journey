@@ -10,7 +10,7 @@ Local:
 - Final Joints CTF by Universitas Gadjah Mada (4th)
 
 
-| Kolom 1 | Kolom 2 |
+| Local | International |
 |---------|---------|
-| Baris 1 | Baris 1 |
-| Baris 2 | Baris 2 |
+| Unity CTF UNY | Wargames Malaysia |
+| Joints CTF UGM | Baris 2 |
