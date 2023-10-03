@@ -15,3 +15,6 @@ Local:
 | [ARA CTF ITS](https://github.com/naufalardhani/ctf-journey/blob/main/Writeups/4th_ARACTF_2023.pdf) | |
 | Unity CTF UNY | Wargames Malaysia |
 | [Joints CTF UGM](https://github.com/naufalardhani/ctf-journey/blob/main/Writeups/4th_Final_Joints_UGM.pdf) | Baris 2 |
+
+- [x] Tugas selesai
+- [ ] Tugas belum selesai
