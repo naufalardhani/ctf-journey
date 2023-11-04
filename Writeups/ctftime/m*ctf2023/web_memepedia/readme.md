@@ -1,5 +1,8 @@
 # Memepedia (Hard)
 
+[lfi2rce via php filters ](https://book.hacktricks.xyz/pentesting-web/file-inclusion/lfi2rce-via-php-filters)
+
+di bawah ini solver untuk reverse shell
 
 ```python
 import requests
