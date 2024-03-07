@@ -1,0 +1,10 @@
+version: '3'
+services:
+  agrihack:
+    container_name: lfi2rce
+    build:
+      context: ./
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "15003:80"

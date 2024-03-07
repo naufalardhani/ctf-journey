@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Agriinformatics Code</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Agriinformatics Code</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-row align-items-center">
+                            <div class="col-auto">
+                                <label for="code" class="sr-only">Community code:</label>
+                                <input id="code" type="text" class="form-control mb-2" maxlength="4" style="width: 10em;" required>
+                            </div>
+                            <div class="col-auto">
+                                <button onclick="queryCommunityCode()" class="btn btn-primary mb-2">Search</button>
+                            </div>
+                        </div>
+                        <p id="result" class="mt-3"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Popper.js, jQuery) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        function getFlagEmoji(countryCode) {
+            const codePoints = countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt());
+            return String.fromCodePoint(...codePoints);
+        }
+
+        function setText(text) {
+            document.getElementById("result").innerText = `=> ${text}`;
+        }
+
+        function queryCommunityCode() {
+            let code = document.getElementById("code").value;
+            fetch('/api/search', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ code })
+            }).then(response => {
+                if (response.status !== 200) {
+                    setText("Community code is not found");
+                    throw new Error(response.statusText);
+                } else {
+                    return response.json();
+                }
+            }).then(data => {
+                setText(getFlagEmoji(code) + " " + data.name);
+            }).catch(err => { })
+        }
+    </script>
+</body>
+</html>

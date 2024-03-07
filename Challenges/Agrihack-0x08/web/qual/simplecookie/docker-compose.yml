@@ -1,0 +1,10 @@
+version: '3'
+services:
+  agrihack:
+    container_name: simplecookie
+    build:
+      context: ./
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "15001:80"

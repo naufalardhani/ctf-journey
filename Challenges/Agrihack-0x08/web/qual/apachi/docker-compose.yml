@@ -1,0 +1,11 @@
+version: '3'
+services:
+  apache:
+    build:
+      context: ./  # Direktori tempat Dockerfile berada
+    ports:
+      - "15006:80"  # Port untuk mengakses Apache
+    volumes:
+      - ./vulnerable-httpd.conf:/usr/local/apache2/conf/httpd.conf  # Mengaitkan file konfigurasi lokal dengan yang ada di kontainer
+      - ./src:/var/www/html
+    container_name: apache-server

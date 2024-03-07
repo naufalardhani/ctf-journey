@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ezcatcher:
+    build:
+      context: .
+    container_name: ezcatcher
+    ports:
+      - "15017:5000"

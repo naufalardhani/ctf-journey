@@ -1,0 +1,10 @@
+version: '3'
+services:
+  agrihack:
+    container_name: lfi
+    build:
+      context: ./
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "15002:80"

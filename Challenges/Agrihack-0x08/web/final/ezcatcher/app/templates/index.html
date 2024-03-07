@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>ezcatcher</title>
+</head>
+<body>
+    <header>
+        <h1>ezcatcher</h1>
+        <form method="POST">
+            <label for="path">Create a new path: </label>
+            <input type="text" name="path" id="path" required>
+            <button type="submit">Create</button>
+        </form>
+    </header>
+    
+    <!-- <section class="paths">
+        <ul>
+            <h2>Existing Paths</h2>
+            {% for path in paths %}
+                {% if ua == request.headers.get('User-Agent') %}
+                    <li><a href="{{ url_for('catch_requests', path=path) }}">{{ path }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </section> -->
+</body>
+</html>

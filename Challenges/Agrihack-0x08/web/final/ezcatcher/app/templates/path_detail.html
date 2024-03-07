@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>ezcatcher - {{ path }}</title>
+</head>
+<body>
+    <header>
+        <h1>Your path is {{ path }}</h1>
+    </header>
+    
+    <section class="container">
+        <ul class="details">
+            <li>
+                <center>
+                    <h3>Example:</h3>
+                </center>
+            </li>
+            <li>$ curl -X GET {{request.host_url}}{{hex}} -A "{{ua}}" -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}"</li>
+            <li>$ curl -X POST {{request.host_url}}{{hex}} -A "{{ua}}"  -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}" -d "cmd=cat /flag*"</li>
+            <li>$ curl -X PUT {{request.host_url}}{{hex}} -A "{{ua}}"  -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}" -d "cmd=cat /flag*"</li>
+            <li>$ curl -X PATCH {{request.host_url}}{{hex}} -A "{{ua}}"  -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}" -d "cmd=cat /flag*"</li>
+            <li>$ curl -X DELETE {{request.host_url}}{{hex}} -A "{{ua}}"  -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}"</li>
+            <li>$ curl -X OPTIONS {{request.host_url}}{{hex}} -A "{{ua}}"  -H "Flag: hacktoday{1n1_m4h_buk4n_fl4g}"</li>
+        </ul>
+        <ul class="details">
+            <center>
+                <h3>Your request:</h3>
+            </center>
+            {% for req in request_data %}
+                <li>
+                    <strong>Method:</strong> {{ req.method }}<br>
+                    <strong>Path:</strong> {{ req.path }}<br>
+                    <strong>Headers:</strong> {{ req.headers }}<br>
+                    <strong>Data:</strong><br> {{ req.data }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+</body>
+</html>

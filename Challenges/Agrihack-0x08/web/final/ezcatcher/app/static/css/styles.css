@@ -1,0 +1,97 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the form */
+form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+/* Style the input and button */
+input[type="text"] {
+    width: 100%;
+    /* padding: 1; */
+    padding: 10px 0px 10px 0px; 
+    padding-right: -10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Style the list of paths */
+ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the path detail container */
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the details list */
+.details {
+    max-width: 1000px;
+    /* list-style: none; */
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.details li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}

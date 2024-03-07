@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+
+  agrihack:
+    container_name: ethernal
+    build:
+      context: ./ethernal
+    volumes:
+      - ./ethernal/src:/var/www/html
+    ports:  
+      - "15013:80"
+    networks:
+      internal_network:
+          ipv4_address: 10.10.0.4
+
+  flag:
+    container_name: ethernal_flag
+    restart: always
+    build:
+      context: ./flag
+    volumes:
+      - ./flag/src:/app
+    networks:
+      internal_network:
+          ipv4_address: 10.10.0.5
+    expose:
+      - "80"
+
+networks:
+  internal_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/16
