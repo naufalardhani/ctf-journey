@@ -1,5 +1,18 @@
 # Capture The Flag | Resources and Writeup
 
+My CTF career started when I was selected for [Cyber ​​Security IPB (known as CSI)](https://ctftime.org/team/11930) in November 2022, my goal was to play CTF to fulfill my skills for my future career and also have fun.
+
+Teams
+
+| Name                                                         | Joined |
+| ------------------------------------------------------------ | ------ |
+| CSI (Cyber Security IPB)                                     | 2022   |
+| Big Brain Kidz (Part of CSI for local competition)           | 2022   |
+| Social Engineering Experts                                   | 2023   |
+| [Friendly Maltese Citizens](https://ctftime.org/team/220769) | 2023   |
+| [SNI](https://ctftime.org/team/279998)                       | 2024   |
+|                                                              |        |
+
 ### Contests
 
 | No  | Name                  | Year | Host                                                     | Achievement                   | Writeups                                                                               | Country | Category       |
