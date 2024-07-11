@@ -4,8 +4,8 @@
 
 | No | Name      | Year     | Host  | Achievement   | Writeups | Country |
 | :---:   | --------  | :------: | -------- | ----- | ----- | :-----: |
-| 1 | ARA CTF   | 2023     | Institut Teknologi Sepuluh November | 4th Place | [Link](tes) | 🇮🇩 |
-| 2 | Unity CTF   | 2023   | Universitas Negeri Yogyakarta | 3rd Winner | [Link](tes) | 🇮🇩 |
+| 1 | ARA CTF   | 2023     | Institut Teknologi Sepuluh November | 4th Place | [Link](Writeups/4th_ARACTF_2023.pdf) | 🇮🇩 |
+| 2 | Unity CTF   | 2023   | Universitas Negeri Yogyakarta | 3rd Winner | [Link](Writeups/4th_Final_Joints_UGM.pdf) | 🇮🇩 |
 | 3 | Joints CTF  | 2023   | Universitas Gadjah Mada       | 4th  | [Link](tes) | 🇮🇩 |
 | 4 | Gemastik XVI| 2023   | Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi  | Top 20 | [Link](tes) | 🇮🇩 |
 | 5 | National Cyber Week | 2023 | Universitas Bina Nusantara | Top 10 | [Link](tes) | 🇮🇩 |
