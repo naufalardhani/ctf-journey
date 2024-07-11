@@ -4,14 +4,14 @@ My CTF career started when I was selected for [Cyber ​​Security IPB (known a
 
 Teams
 
-| Name                                                         | Joined |
-| ------------------------------------------------------------ | ------ |
-| CSI (Cyber Security IPB)                                     | 2022   |
-| Big Brain Kidz (Part of CSI for local competition)           | 2022   |
-| Social Engineering Experts                                   | 2023   |
-| [Friendly Maltese Citizens](https://ctftime.org/team/220769) | 2023   |
-| [SNI](https://ctftime.org/team/279998)                       | 2024   |
-|                                                              |        |
+| Name                                                          | Joined | Country   |
+| ------------------------------------------------------------- | ------ | --------- |
+| [CSI](https://ctftime.org/team/11930)                         | 2022   | Indonesia |
+| [Big Brain Kidz](https://ctftime.org/team/216927)             | 2022   | Indonesia |
+| [Social Engineering Experts](https://ctftime.org/team/151372) | 2023   | Singapore |
+| [Friendly Maltese Citizens](https://ctftime.org/team/220769)  | 2023   | -         |
+| [SNI](https://ctftime.org/team/279998)                        | 2024   | Indonesia |
+
 
 ### Contests
 
