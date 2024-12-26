@@ -28,7 +28,8 @@ Teams
 |  8  | National Cyber Week   | 2023 | Universitas Bina Nusantara                               | Finalist                      | [Link](Writeups/National%20Cyber%20Week.pdf)                                           |  🇮🇩   | Jeopardy       |
 |  9  | Wargames.MY           | 2023 | Wargames Malaysia                                        | 2nd Place Winner              | [Link](https://naufalardhani.medium.com/wargames-my-ctf-2023-web-writeup-83bc56862706) |  🇲🇾   | Jeopardy       |
 | 10  | Netcomp 2.0           | 2024 | Universitas Gadjah Mada                                  | 2nd Place Winner              | [Link](Writeups/Final_Netcomp_Saya_Aslinya_Tiga_Orang.pdf)                             |  🇮🇩   | Boot2Root      |
-| 11  | Cyber Security Olivia | 2024 | OLIMPIADE VOKASI INDONESIA                               | ongoing                       | -                                                                                      |  🇮🇩   | Pentesting     |
+| 11  | Cyber Security Olivia | 2024 | OLIMPIADE VOKASI INDONESIA                               | 2nd Place Winner                       | -                                                                                      |  🇮🇩   | Pentesting     |
+| 11  | Interfest CTF | 2024 | Universitas Telkom                               | 1st Place Winner                       | -                                                                                      |  🇮🇩   | Jeopardy     |
 
 
 ### Tools
